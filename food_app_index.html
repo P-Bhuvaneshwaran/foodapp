@@ -1,0 +1,766 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>foodie</title>
+    <link rel="stylesheet" href="food_app_index.css">
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-QWTKZyjpPEjISv5WaRU9OFeRpok6YctnYmDr5pNlyT2bRjXh0JMhjY6hW+ALEwIH" crossorigin="anonymous">
+<script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/js/bootstrap.bundle.min.js" integrity="sha384-YvpcrYf0tY3lHB60NNkmXc5s9fDVZLESaAA55NDzOxhy9GkcIdslK1eN7N6jIeHz" crossorigin="anonymous"></script>
+<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.6.0/css/all.min.css" integrity="sha512-Kc323vGBEqzTmouAECnVceyQqyqdsSiqLQISBL29aUW4U/M7pSPA/gEUZQqv1cwx4OnYxTxve5UMg5GT6L4JJg==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+
+</head>
+<body data-bs-spy="scroll" data-bs-target=".navbar" data-bs-offset="50">
+    <!-- Navbar -->
+
+    
+
+    <nav class=" header navbar navbar-expand-lg  mb-3 navbar-light bg-light">
+        <div class="container">
+          <a class="navbar-brand" href="#">Foodie</a>
+          <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+            <span class="navbar-toggler-icon"></span>
+          </button>
+          <div class="collapse navbar-collapse" id="navbarSupportedContent">
+            <ul class="navbar-nav m-auto border mb-lg-0">
+              <li class="nav-item px-3">
+                <a class="nav-link active" aria-current="page" href="#">Home</a>
+              </li>
+              <li class="nav-item px-3">
+                <a class="nav-link" href="#section2">Offers</a>
+              </li>
+              <li class="nav-item px-3">
+                <a class="nav-link" href="#">Food Items</a>
+              </li>
+              <li class="nav-item px-3">
+                <a class="nav-link" href="#">Cart</a>
+              </li>
+              <li class="nav-item px-3">
+                <a class="nav-link" href="#">Contact us</a>
+              </li>
+            </ul>
+            <form class="d-flex">
+              <input class="form-control me-2" type="search" placeholder="Search" aria-label="Search">
+              <button class="btn btn-outline-success" type="submit">Search</button>
+            </form>
+          </div>
+        </div>
+      </nav>
+
+
+    <!-- Section 1 HOME-->
+      
+    <section id="section1">
+        <div class="container mb-3" style="height: 100vh;">
+            <div class="boox2 d-flex py-3 justify-content-center align-items-end" style="height: 60%;">
+                <h2 class="text-center  text-light" style="text-shadow: 1px 1px white;font-family:system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;">Welcome !</h2>
+            </div>
+            <div class="boox text-center">
+                <button class="btn bg-light mx-1">More Info</button><button class="btn mx-1 btn-dark text-light">Order Now</button>
+            </div>
+        </div>
+    </section>
+  
+    <!-- Section1.1 FILTERS -->
+    <section class="section1-1" id="section1-1" >
+        <div class="container">
+            <!-- <h5 class="sub-title">Filters</h5> -->
+            <div class="row">
+                <!-- <hr>  -->
+            </div>
+            <div class="row ">
+                <div class="col d-flex flex-wrap filters">
+                    <!-- <div class="filters d-flex" style="height: 35px;"> -->
+                    
+                        <div class="filter-items px-3 pt-3 ms-2 my-2">
+                            <p class="p-0" style="line-height: 0;"><i class="fa-solid fa-sliders" style="font-size: 13px; line-height: 0;"></i>  Filters</p>
+                        </div>
+                        <div class="filter-items px-3 pt-3 ms-3 my-2">
+                            <p p class="p-0" style="line-height: 0;">Rating 4.0<i class="fa-solid fa-plus text-center" style="font-size: 11px; line-height: 0;"></i></p>
+                        </div>
+                        <div class="filter-items px-3 pt-3 ms-3 my-2">
+                            <p p class="p-0" style="line-height: 0;"> Pure Veg<i class="" style="font-size: 13px; line-height: 0;"></i></p>
+                        </div>
+                        <div class="filter-items px-3 pt-3 ms-3 my-2">
+                            <p p class="p-0" style="line-height: 0;">New Ones<i class="" style="font-size: 13px; line-height: 0;"></i></p>
+                        </div>
+                        <div class="filter-items px-3 pt-3 ms-3 my-2">
+                            <p p class="p-0" style="line-height: 0;">Top Brands<i class="" style="font-size: 13px; line-height: 0;"></i></p>
+                        </div>
+                        <div class="filter-items px-3 pt-3 ms-3 my-2">
+                            <p p class="p-0" style="line-height: 0;">Fast Delivery<i class="" style="font-size: 13px; line-height: 0;"></i></p>
+                        </div>
+                        <div class="filter-items px-3 pt-3 ms-3 my-2">
+                            <p p class="p-0" style="line-height: 0;">Less than rs. 99<i class="" style="font-size: 13px; line-height: 0;"></i></p>
+                        </div>
+                    <!-- </div> -->
+                </div>
+            </div>
+        </div>
+    </section>
+
+
+    <!-- Section 2 OFFER-->
+
+    
+    <section id="section2">
+        <div class="container my-5">
+
+            <!-- flat off -->
+         <h4 class=" text-center sub-title py-2">Flat Offers</h4>
+         <!-- <hr> -->
+    
+            <div class="row">
+                <div class="col-lg-3" >
+                    <div class="offer-img-1 my-3 rounded d-flex flex-column justify-content-between">
+                        <div class="row text-light">
+                            <div class="col " >
+                                <!-- /* box-shadow: rgba(0, 0, 0, 0.20) 2px 5px 15px; */ -->
+                                <i class="fa-solid fa-heart float-end px-3 py-2" style="font-size: 24px;"></i>
+                                <!-- <i class=" fa-brands fa-github" ></i> -->
+                            </div>
+                        </div>
+                        <div class="row m-0 p-0 text-light">
+                            <div class="col m-0 p-0" >
+                                <h4 class="px-2 mb-0">FLAT 75% OFF</h4>
+                               <h6 class="py-2 px-2 mb-0" >AT $179</h6>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-lg-3" >
+                    <div class="offer-img-2 my-3 rounded d-flex flex-column justify-content-between">
+                        <div class="row text-light">
+                            <div class="col " >
+                                <i class="fa-solid fa-heart float-end px-3 py-2" style="font-size: 24px;"></i>
+                            </div>
+                        </div>
+                        <div class="row m-0 p-0 text-light">
+                            <div class="col m-0 p-0" >
+                                <h4 class="px-2 mb-0">FLAT 50% OFF</h4>
+                               <h6 class="py-2 px-2 mb-0" >UPTO $199</h6>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-lg-3" >
+                    <div class="offer-img-3 my-3 rounded d-flex flex-column justify-content-between">
+                        <div class="row text-light">
+                            <div class="col " >
+                                <!-- /* box-shadow: rgba(0, 0, 0, 0.20) 2px 5px 15px; */ -->
+                                <i class="fa-solid fa-heart float-end px-3 py-2" style="font-size: 24px;"></i>
+                                <!-- <i class=" fa-brands fa-github" ></i> -->
+                            </div>
+                        </div>
+                        <div class="row m-0 p-0 text-light">
+                            <div class="col m-0 p-0" >
+                                <h4 class="px-2 mb-0">FLAT 50% OFF</h4>
+                               <h6 class="py-2 px-2 mb-0" >AT $129</h6>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-lg-3" >
+                    <div class="offer-img-4 my-3 rounded d-flex flex-column justify-content-between">
+                        <div class="row text-light">
+                            <div class="col " >
+                                <!-- /* box-shadow: rgba(0, 0, 0, 0.20) 2px 5px 15px; */ -->
+                                <i class="fa-solid fa-heart float-end px-3 py-2" style="font-size: 24px;"></i>
+                                <!-- <i class=" fa-brands fa-github" ></i> -->
+                            </div>
+                        </div>
+                        <div class="row m-0 p-0 text-light">
+                            <div class="col m-0 p-0" >
+                                <h4 class="px-2 mb-0">FLAT 25% OFF</h4>
+                               <h6 class="py-2 px-2 mb-0" >AT $399</h6>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+
+            </div>
+
+
+
+            <!-- top brands  -->
+             <h5 class="sub-title pb-3 pt-5">Top Brands</h5>
+             <!-- <hr> -->
+             <div class="row">
+                <div class="col" >
+                    <div class="brands" >
+                        <div class="top-brands">
+                            <img src="images.png" alt="">
+                        </div>
+                        <h6 class="text-center pt-2 pe-4">Pizza Hut</h6>
+                    </div>
+                </div>
+                <div class="col">
+                    <div class="brands">
+                        <div class="top-brands">
+                            <img src="dominos.png" alt="">
+                        </div>
+                        <h6 class="text-center pt-2 pe-4">Domino's Pizza</h6>
+                    </div>
+                </div>
+                <div class="col">
+                    <div class="brands">
+                        <div class="top-brands">
+                            <img src="kfc.png" alt="">
+                        </div>
+                        <h6 class="text-center pt-2 pe-4">Kfc</h6>
+                    </div>
+                </div>
+                <div class="col">
+                    <div class="brands">
+                        <div class="top-brands">
+                            <img src="burder-king.png" alt="">
+                        </div>
+                        <h6 class="text-center pt-2 pe-4">Burger King</h6>
+                    </div>
+                </div>
+                <div class="col">
+                    <div class="brands">
+                        <div class="top-brands">
+                            <img src="mcdonalds.png" alt="">
+                        </div>
+                        <h6 class="text-center pt-2 pe-4">McDonald's</h6>
+                    </div>
+                </div>
+                <div class="col">
+                    <div class="brands">
+                        <div class="top-brands">
+                            <img src="taco-bell.png" alt="" style="">
+                     
+                        </div>
+                        <h6 class="text-center pt-2 pe-4">Taco Bell</h6>
+                    </div>
+                </div>
+                <div class="col">
+                    <div class="brands">
+                        <div class="top-brands">
+                            <img src="subway.png" alt="">
+                        </div>
+                        <h6 class="text-center pt-2 pe-4">Subway</h6>
+                    </div>
+                </div>
+            </div>
+             <!-- carousel -->
+
+            
+        </div>
+    </section>
+
+  
+  <!-- Section 3 PRODUCTS -->
+    
+    <section id="section3" class="section3">
+        <!-- <hr> -->
+        <div class="container  my-5">
+            <h4 class="py-2 sub-title text-center">Food Items</h4>
+            <div class="row">
+                <div class="col text-center py-2">
+                </div>
+            </div>
+            <div class="row category">
+                <div class="col-lg-3 mb-3">
+                    <div class="card p-2 ">
+                        <img src="003fcaf7355d221df4ae036a005e84fe.webp" alt="" class="img-fluid rounded">
+                        <div class="card-body p-1">
+                            <div class="card-title-1 m-0 d-flex justify-content-between">
+                                <p class="card-title p-0 mb-0">Trichy Cafe</p>
+                                <p class="badge bg-success mb-0"  style="font-size: 11px;">4.0 <i style="font-size: 9px;" class="fa-solid fa-star mb-0"></i></p>
+                            </div>
+                            <div class="card-title-2 d-flex justify-content-between">
+                                <p class="variety text-muted mb-0 pt-1">Veg,Indian</p>
+                               
+                                <p class="price text-muted mb-0 pt-1">$30 for one</p>
+                            </div>
+                            <div class="card-title3 d-flex justify-content-end">
+                                <p class="updated-time m-0 pt-1">10 min</p>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <!-- 2 -->
+                <div class="col-lg-3 mb-3">
+                    <div class="card p-2 ">
+                        <img src="biriyani-offer-2.jpg" alt="" class="img-fluid rounded">
+                        <div class="card-body p-1">
+                            <div class="card-title-1 m-0 d-flex justify-content-between">
+                                <p class="card-title p-0 mb-0">Salem RR Biriyani</p>
+                                <p class="badge bg-success mb-0"  style="font-size: 11px;">4.2 <i style="font-size: 9px;" class="fa-solid fa-star mb-0"></i></p>
+                            </div>
+                            <div class="card-title-2 d-flex justify-content-between">
+                                <p class="variety text-muted mb-0 pt-1">Biriyani,Chinese</p>
+                                <p class="price text-muted mb-0 pt-1">$120 for one</p>
+                            </div>
+                            <div class="card-title3 d-flex justify-content-end">
+                                <p class="updated-time m-0 pt-1">800min</p>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <!-- 3 -->
+                <div class="col-lg-3 mb-3">
+                    <div class="card p-2 ">
+                        <img src="lollipop.jpeg" alt="" class="img-fluid rounded">
+                        <div class="card-body p-1">
+                            <div class="card-title-1 m-0 d-flex justify-content-between">
+                                <p class="card-title p-0 mb-0">Thottathu Virundhu</p>
+                                <p class="badge bg-success mb-0"  style="font-size: 11px;">4.3 <i style="font-size: 9px;" class="fa-solid fa-star mb-0"></i></p>
+                            </div>
+                            <div class="card-title-2 d-flex justify-content-between">
+                                <p class="variety text-muted mb-0 pt-1">Non veg, Italian</p>
+                                <p class="price text-muted mb-0 pt-1">$180 for one</p>
+                            </div>
+                            <div class="card-title3 d-flex justify-content-end">
+
+                                <p class="updated-time m-0 pt-1">800min</p>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <!-- 4 -->
+                <div class="col-lg-3 mb-3">
+                    <div class="card p-2 ">
+                        <img src="slice-pizza2.jpg" alt="" class="img-fluid rounded">
+                        <div class="card-body p-1">
+                            <div class="card-title-1 m-0 d-flex justify-content-between">
+                                <p class="card-title p-0 mb-0">Pizza Hut</p>
+                                <p class="badge bg-success mb-0"  style="font-size: 11px;">4.2 <i style="font-size: 9px;" class="fa-solid fa-star mb-0"></i></p>
+                            </div>
+                            <div class="card-title-2 d-flex justify-content-between">
+                                <p class="variety text-muted mb-0 pt-1">Pizzas</p>
+                                <p class="price text-muted mb-0 pt-1">$140 for one</p>
+                            </div>
+                            <div class="card-title3 d-flex justify-content-end">
+                                <p class="updated-time m-0 pt-1">25 min</p>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <!-- 5 -->
+                <div class="col-lg-3 mb-3">
+                    <div class="card p-2 ">
+                        <img src="full-grill.jpeg" alt="" class="img-fluid rounded">
+                        <div class="card-body p-1">
+                            <div class="card-title-1 m-0 d-flex justify-content-between">
+                                <p class="card-title p-0 mb-0">Hotel Barbequeen</p>
+                                <p class="badge bg-success mb-0"  style="font-size: 11px;">4.3<i style="font-size: 9px;" class="fa-solid fa-star mb-0"></i></p>
+                            </div>
+                            <div class="card-title-2 d-flex justify-content-between">
+                                <p class="variety text-muted mb-0 pt-1">Chinese, North Indian</p>
+                                <p class="price text-muted mb-0 pt-1">$279 for one</p>
+                            </div>
+                            <div class="card-title3 d-flex justify-content-end">
+                                <p class="updated-time m-0 pt-1">25 min</p>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <!-- 6 -->
+                <div class="col-lg-3 mb-3">
+                    <div class="card p-2 ">
+                        <img src="full-meal-2.jpeg" alt="" class="img-fluid rounded">
+                        <div class="card-body p-1">
+                            <div class="card-title-1 m-0 d-flex justify-content-between">
+                                <p class="card-title p-0 mb-0">Sri Annalakshmi</p>
+                                <p class="badge bg-success mb-0"  style="font-size: 11px;">4.0 <i style="font-size: 9px;" class="fa-solid fa-star mb-0"></i></p>
+                            </div>
+                            <div class="card-title-2 d-flex justify-content-between">
+                                <p class="variety text-muted mb-0 pt-1">Veg, Indian</p>
+                                <p class="price text-muted mb-0 pt-1">$100 for one</p>
+                            </div>
+                            <div class="card-title3 d-flex justify-content-end">
+                                <p class="updated-time m-0 pt-1">20min</p>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <!-- 7 -->
+                <div class="col-lg-3 mb-3">
+                    <div class="card p-2 ">
+                        <img src="crispy-chick.jpeg" alt="" class="img-fluid rounded">
+                        <div class="card-body p-1">
+                            <div class="card-title-1 m-0 d-flex justify-content-between">
+                                <p class="card-title p-0 mb-0">Annamar Punjabi</p>
+                                <p class="badge bg-success mb-0"  style="font-size: 11px;">4.4 <i style="font-size: 9px;" class="fa-solid fa-star mb-0"></i></p>
+                            </div>
+                            <div class="card-title-2 d-flex justify-content-between">
+                                <p class="variety text-muted mb-0 pt-1">Chinese, North Indian</p>
+                                <p class="price text-muted mb-0 pt-1">$188 for one</p>
+                            </div>
+                            <div class="card-title3 d-flex justify-content-end">
+                                <p class="updated-time m-0 pt-1">45 mins</p>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <!-- 8 -->
+                <div class="col-lg-3 mb-3">
+                    <div class="card p-2 ">
+                        <img src="pongal.jpeg" alt="" class="img-fluid rounded">
+                        <div class="card-body p-1">
+                            <div class="card-title-1 m-0 d-flex justify-content-between">
+                                <p class="card-title p-0 mb-0">TN 33 Classic</p>
+                                <p class="badge bg-success mb-0"  style="font-size: 11px;">4.3 <i style="font-size: 9px;" class="fa-solid fa-star mb-0"></i></p>
+                            </div>
+                            <div class="card-title-2 d-flex justify-content-between">
+                                <p class="variety text-muted mb-0 pt-1">Veg, Indian</p>
+                                <p class="price text-muted mb-0 pt-1">$150 for one</p>
+                            </div>
+                            <div class="card-title3 d-flex justify-content-end">
+                                <p class="updated-time m-0 pt-1">30min</p>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-lg-3 mb-3">
+                    <div class="card p-2 ">
+                        <img src="burger.jpeg" alt="" class="img-fluid rounded">
+                        <div class="card-body p-1">
+                            <div class="card-title-1 m-0 d-flex justify-content-between">
+                                <p class="card-title p-0 mb-0">McDonald's</p>
+                                <p class="badge bg-success mb-0"  style="font-size: 11px;">4.4 <i style="font-size: 9px;" class="fa-solid fa-star mb-0"></i></p>
+                            </div>
+                            <div class="card-title-2 d-flex justify-content-between">
+                                <p class="variety text-muted mb-0 pt-1">Burgers,Beverages</p>
+                                <p class="price text-muted mb-0 pt-1">$214 for one</p>
+                            </div>
+                            <div class="card-title3 d-flex justify-content-end">
+                                <p class="updated-time m-0 pt-1">80 mins</p>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-lg-3 mb-3">
+                    <div class="card p-2 ">
+                        <img src="biriyani3.jpeg" alt="" class="img-fluid rounded">
+                        <div class="card-body p-1">
+                            <div class="card-title-1 m-0 d-flex justify-content-between">
+                                <p class="card-title p-0 mb-0">AM Biriyani</p>
+                                <p class="badge bg-success mb-0"  style="font-size: 11px;">4.3 <i style="font-size: 9px;" class="fa-solid fa-star mb-0"></i></p>
+                            </div>
+                            <div class="card-title-2 d-flex justify-content-between">
+                                <p class="variety text-muted mb-0 pt-1">Biriyani,South Indian</p>
+                                <p class="price text-muted mb-0 pt-1">$280 for one</p>
+                            </div>
+                            <div class="card-title3 d-flex justify-content-end">
+                                <p class="updated-time m-0 pt-1">25 mins</p>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-lg-3 mb-3">
+                    <div class="card p-2 ">
+                        <img src="fried-chicken.jpeg" alt="" class="img-fluid rounded">
+                        <div class="card-body p-1">
+                            <div class="card-title-1 m-0 d-flex justify-content-between">
+                                <p class="card-title p-0 mb-0">Zan Cafe</p>
+                                <p class="badge bg-success mb-0"  style="font-size: 11px;">4.1 <i style="font-size: 9px;" class="fa-solid fa-star mb-0"></i></p>
+                            </div>
+                            <div class="card-title-2 d-flex justify-content-between">
+                                <p class="variety text-muted mb-0 pt-1">Fast Food,Chinese</p>
+                                <p class="price text-muted mb-0 pt-1">$130 for one</p>
+                            </div>
+                            <div class="card-title3 d-flex justify-content-end">
+                                <p class="updated-time m-0 pt-1">800min</p>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-lg-3 mb-3">
+                    <div class="card p-2 ">
+                        <img src="burrito-3.jpeg" alt="" class="img-fluid rounded">
+                        <div class="card-body p-1">
+                            <div class="card-title-1 m-0 d-flex justify-content-between">
+                                <p class="card-title p-0 mb-0">Zwarma</p>
+                                <p class="badge bg-success mb-0"  style="font-size: 11px;">4.3 <i style="font-size: 9px;" class="fa-solid fa-star mb-0"></i></p>
+                            </div>
+                            <div class="card-title-2 d-flex justify-content-between">
+                                <p class="variety text-muted mb-0 pt-1">Chinese,Barbecue</p>
+                                <p class="price text-muted mb-0 pt-1">$129 for one</p>
+                            </div>
+                            <div class="card-title3 d-flex justify-content-end">
+                                <p class="updated-time m-0 pt-1">65 mins</p>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            <!-- </div> -->
+            <!-- <div class="row mt-3"> -->
+            </div>
+        </div>
+    </section>
+
+    
+
+    
+
+    <!-- Section 5 CART -->
+
+    <section id="section5">
+          <div class="container my-5">
+              <h4 class="py-3 text-center sub-title">Cart</h2>
+              <!-- <hr> -->
+            <div class="row mt-2">
+                <div class="col-md-8 m-0">
+                    <div class="row text-center" >
+                        <div class="col-md-4"   >
+                            <h6>Items</h6>
+                        </div>
+                        <div class="col-md-4">
+                            <h6>Place</h6>
+                        </div>
+                        <div class="col-md-2">
+                            <h6>Price</h6>
+                        </div>
+                        <div class="col-md-2">
+                            <div class="double-head d-flex ">
+                                <h6>Quantity</h6>
+                                <!-- <h6>Remove</h6> -->
+                            </div>
+                        </div>
+                        <!-- <hr> -->
+                    </div>
+                    <div class="row mb-4" >
+
+                        <div class="col-md-4">
+                            <img src="biriyani2.jpeg" alt="" style="width: 100%;height: 100%;">
+                        </div>
+                        <div class="col-md-4 align-items-center d-flex flex-column justify-content-center" >
+                            <p class="card-title p-0 mb-0">Salem RR Biriyani</p>
+                            <p class="variety text-muted mb-0 pt-1">Biriyani,Chinese</p>
+                        </div>
+                        <div class="col-md-2 align-items-center d-flex flex-column justify-content-center">
+                            <p class="Price text-muted mb-0 pt-1 ">$120</p>
+                        </div>
+                        <div class="col-md-2 align-items-center d-flex flex-column justify-content-center" >
+                            <div class="quantity d-flex align-items-center justify-content-evenly" style="width: 100%;">
+                                <input type="number" name="" id="" class=" "  placeholder="1" style="width: 50px;border: none;border: none;">
+                                <i class="fa-solid fa-xmark pe-2"></i>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="row my-4" >
+                        <div class="col-md-4">
+                            <img src="burger.jpeg" alt="" style="width: 100%;height: 100%;">
+                        </div>
+                        <div class="col-md-4  align-items-center d-flex flex-column justify-content-center" >
+                            <p class="card-title p-0 mb-0">McDonald's</p>
+                            <p class="variety text-muted mb-0 pt-1">Burgers, Beverages</p>
+                        </div>
+                        <div class="col-md-2 align-items-center d-flex flex-column justify-content-center">
+                            <p class="Price text-muted mb-0 pt-1 ">$214</p>
+                        </div>
+                        <div class="col-md-2 align-items-center d-flex flex-column justify-content-center" >
+                            <div class="quantity d-flex align-items-center justify-content-evenly" style="width: 100%;">
+                                <input type="number" name="" id="" class=""  placeholder="1" style="width: 50px;border: none;border: none;">
+                                <i class="fa-solid fa-xmark pe-2"></i>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="row my-4" >
+                        <div class="col-md-4" >
+                            <img src="slice-pizza2.jpg" alt="" style="width: 100%;height: 100%;">
+                        </div>
+                        <div class="col-md-4 align-items-center d-flex flex-column justify-content-center" >
+                            <p class="card-title p-0 mb-0">Pizza Hut</p>
+                            <p class="variety text-muted mb-0 pt-1">Pizzas</p>
+                        </div>
+                        <div class="col-md-2 align-items-center d-flex flex-column justify-content-center" >
+                            <p class="Price text-muted mb-0 pt-1 ">$140</p>
+                        </div>
+                        <div class="col-md-2 align-items-center d-flex flex-column justify-content-center" >
+                            <div class="quantity d-flex align-items-center justify-content-evenly" style="width: 100%;">
+                                <input type="number" name="" id="" class=""  placeholder="1" style="width: 50px;border: none;border: none;">
+                                <i class="fa-solid fa-xmark pe-2"></i>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-md-4 bg-warning pt-4 px-3 pb-1">
+                    <div class="row">
+                        <div class="col">
+                            <h4>Cart Items</h4>
+                            <hr>
+                            <div class="mb-3">
+                                <label for="formGroupExampleInput" class="form-label">Name</label>
+                                <input type="text" class="form-control" id="formGroupExampleInput" placeholder="Enter Your Name">
+                            </div>
+                            <div class="mb-3">
+                                <label for="formGroupExampleInput2" class="form-label">Address</label>
+                                <input type="text" class="form-control mb-2" id="formGroupExampleInput2" placeholder="Address">
+                                <input type="text" class="form-control mb-2" id="formGroupExampleInput2" placeholder="Address 2">
+                                <input type="text" class="form-control" id="formGroupExampleInput2" placeholder="Postal / Zip Code">
+                            </div>
+                            <div class="mb-3">
+                                
+                                <label for="" class="form-label">Payment Method</label>
+                                <div class="radio">
+                                    <input type="radio" name="payment" id="" class="ms-3"><label for="" class="ps-2 pe-4">UPI</label>
+                                    <input type="radio" name="payment" id=""><label for="" class="ps-2 pe-4">Wallet</label>
+                                    <input type="radio" name="payment" id=""><label for="" class="ps-2 ">Credit / Debit Cards</label>
+                                </div>
+                            </div>
+                            <!-- <hr> -->
+                            <div class="mb-3 pt-2 d-flex justify-content-between">
+                                <div class="quantity-box pt-2">
+                                    <label for="formGroupExampleInput2" class="form-label">Quantity</label>
+                                    <input type="number" class="form-control mb-2 py-1" id="" placeholder="3" style="width: 60px;">
+                                </div>
+                                <div class="price-box" style="width: 190px;">
+                                    <div class="row text-end py-1">
+                                        <div class="col">
+                                            <div class="price-tag">Price : </div>
+                                        </div>
+                                        <div class="col">
+                                            <div class="price-tag">$ 346</div>
+                                        </div>
+                                    </div>
+                                    <div class="row text-end py-1">
+                                        <div class="col">
+                                            <div class="gst-tag">Charges : </div>
+                                        </div>
+                                        <div class="col">
+                                            <div class="gst-tag">$ 22</div>
+                                        </div>
+                                    </div>
+                                    <div class="row text-end py-1">
+                                        <div class="col">
+                                            <div class="Tprice-tag" style="font-weight: 500;">Total Price : </div>
+                                        </div>
+                                        <div class="col ">
+                                            <div class="Tprice-tag" style="font-weight: 500;">$ 368</div>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                              <hr>
+                            <div class="mb-3 text-center">
+                                <button class="px-3 py-2 text-warning" style="border-radius: 8px; text-shadow: 1px 1px 1px yellow; font-weight: bold;">Order Now</button>
+                            </div>  
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+          </div>
+    </section>
+
+
+    <!-- Section 6 CONTACT US -->
+
+    <section id="section6">
+            
+          <div class="container my-5">
+              <h4 class="text-center sub-title py-2">Contact us</h4>
+              <!-- <hr> -->
+            <div class="row">
+
+            </div>
+            <div class="row">
+                <div class="col d-flex justify-content-center">
+                    <div class="form bg-light p-2" style="width: 900px;">
+                        <form class="row g-3 Contact-us-form bg-light" style="font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;">
+                            <div class="col-md-6">
+                              <label for="inputEmail4" class="form-label">Your Name</label>
+                              <input type="email" class="form-control px-1 " placeholder="Enter your name">
+                            </div>
+                            <div class="col-md-6 mb-1">
+                              <label for="inputEmail4" class="form-label">Email</label>
+                              <input type="email" class="form-control px-1 "  placeholder="Enter your email address">
+                            </div>
+                            <div class="col-12 mt-5">
+                              <label for="inputAddress" class="form-label">Delivery No.</label>
+                              <input type="text" class="form-control px-1" placeholder="Your Enter Delivery Number">
+                            </div>
+                            <div class="col-12 mt-5">
+                              <label for="inputAddress" class="form-label">Message</label>
+                              <input type="text" class="form-control px-1" placeholder="Your message here...">
+                            </div>
+                            <div class="col-12 mt-5 mb-2">
+                              <button type="submit" class="px-3 py-1">Submit</button>
+                            </div>
+                            <div class="col-12 my-4">
+                                <p class="form-end" style="font-size: 18px;">For any querries contact out 24/7 call center: <span style="color:rgb(233, 5, 138) ;">+012 543 9876</span></p>
+                            </div>
+                          </form>
+                    </div>
+                </div>
+            </div>
+          </div>
+    </section>
+
+    <!-- Section 4 FOOTER -->
+
+    <footer id="section4" class="section4 bg-dark">
+    <!-- <footer id="section4" class="section4"> -->
+        <div class="container mt-3" >
+            <!-- <div class="row"> -->
+                <!-- <div class="col  text-center py-2"> -->
+                    <h4 class="text-center py-2 sub-title">Footer</h4>
+                    <!-- <hr> -->
+                <!-- </div> -->
+            <!-- </div> -->
+            <div class="row ms-5 d-flex justify-content-center" >
+                <h3 class="ps-5">Foodie</h3>
+
+                <div class="col-lg-2 mb-1" >
+                    <ul class="list-unstyled">
+                        <li class="py-2 li-1"><a href="">About</a></li>
+                        <li class="pt-2"><a href="">Careers</a></li>
+                        <li class="pt-2"><a href="">Services</a></li>
+                        <li class="pt-2"><a href="">Contact us</a></li>
+                    </ul>
+                </div>
+                <div class="col-lg-3 mb-1" >
+                    <ul class="list-unstyled">
+                        <li class="py-2 li-1"><a href="">Contact us</a></li>
+                        <li class="pt-2"><a href=""><i class="pe-3 fa-solid fa-phone"></i>+2 345 456</a></li>
+                        <li class="pt-2"><a href=""><i class="pe-3 fa-solid fa-envelope"></i>support@mail.com</a></li>
+                        <li class="pt-2"><a href=""><i class="pe-3 fa-brands fa-whatsapp"></i>Whatsapp</a></li>
+                        
+                    </ul>
+                </div>
+                <div class="col-lg-2 mb-1" >
+                    <ul class="list-unstyled">
+                        <li class="py-2 li-1"><a href="">For Restaurants</a></li>
+                        <li class="pt-2"><a href="">Partner With Us</a></li>
+                        <li class="pt-2"><a href="">Benefits</a></li>
+                    </ul>
+                </div>
+                <div class="col-lg-2 mb-1" >
+                    <ul class="list-unstyled">
+                        <li class="py-2 li-1"><a href="">Learn More</a></li>
+                        <li class="pt-2"><a href="">Privacy</a></li>
+                        <li class="pt-2"><a href="">Security</a></li>
+                        <li class="pt-2"><a href="">Terms</a></li>
+                    </ul>
+                </div>
+            </div>
+            <div class="row footer-brands">
+                <div class="col" >
+                    <div class="icons d-flex">
+                        <a href="">
+                            <div class="icon m-2"><i class="fa-brands fa-facebook-f"></i></div>
+                        </a>
+                        <a href="">
+                            <div class="icon m-2"><i class="fa-brands fa-instagram"></i></div>
+                        </a>
+                        <a href="">
+                            <div class="icon m-2"><i class="fa-brands fa-x-twitter"></i></div>
+                        </a>
+                        <a href="">
+                            <div class="icon m-2"><i class="fa-brands fa-telegram"></i></div>
+                        </a>
+                    </div>
+                    <!-- <hr> -->
+                    <div class="copy-right d-flex align-items-center justify-content-center py-3"><p class="copy-right-text">Foodie <i class="fa-solid fa-copyright"></i> All Rights Reserved.</p></div>
+                </div>
+            </div>
+        </div>
+    </footer>
+</body>
+</html>
